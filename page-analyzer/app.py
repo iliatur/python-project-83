@@ -11,7 +11,6 @@ from flask import (
     request,
     url_for,
 )
-
 from page_analyzer.data_base import UrlRepository
 from page_analyzer.parser import get_data
 from page_analyzer.url_validator import normalize_url, validate_url
